@@ -11,6 +11,6 @@ namespace BonhommePendu.Events
     public abstract class GameEvent
     {
         public abstract string EventType { get; }
-        public List<GameEvent>? Events { get; set; }
+        public List<GameEvent>? Events { get; set; } 
     }
 }
